@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+   
+     @Html.TextBox("CapInput", "", new { @onchange = "CapUPC()", @id = "capID"})   
+      
+</div>
+
+<script>
+    function CapUPC() {
+        var value = $('#capID').val();
+        alert(value);
+        location.href = "https://api.upcitemdb.com/prod/trial/lookup?upc=" + value;
+    }
+</script>

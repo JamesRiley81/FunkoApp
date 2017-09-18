@@ -1,0 +1,9 @@
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.deps.json
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.runtimeconfig.json
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.runtimeconfig.dev.json
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.dll
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.pdb
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.csprojResolveAssemblyReference.cache
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.AssemblyInfo.cs
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.dll
+C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.pdb
