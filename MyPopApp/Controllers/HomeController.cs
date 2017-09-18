@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace MyPopApp.Controllers
 {
@@ -11,25 +13,19 @@ namespace MyPopApp.Controllers
         public IActionResult Index()
         {
             return View();
-        }
-
-        public IActionResult About()
+        }   
+        public async Task<ActionResult> GetAttributes(string bc)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View();
+            var apiURL = "https://api.upcitemdb.com/prod/trial/lookup?upc=";
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(apiURL + bc);
+                var response = client.GetAsync(apiURL + bc).Result;
+                var data = response.Content.ReadAsStringAsync().Result;
+                dynamic jsonData = JsonConvert.DeserializeObject(data);
+                string title = jsonData.fields["title"];
+            }
+            return null;
         }
     }
 }

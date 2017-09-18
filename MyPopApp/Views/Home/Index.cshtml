@@ -3,15 +3,10 @@
 }
 
 <div>
-   
-     @Html.TextBox("CapInput", "", new { @onchange = "CapUPC()", @id = "capID"})   
-      
+   @using (Html.BeginForm("GetAttributes", "Home", FormMethod.Get))
+   {
+     @Html.TextBox("bc", "", new { @onchange = "this.form.submit()", @id = "capID" })   
+   }
+
 </div>
 
-<script>
-    function CapUPC() {
-        var value = $('#capID').val();
-        alert(value);
-        location.href = "https://api.upcitemdb.com/prod/trial/lookup?upc=" + value;
-    }
-</script>

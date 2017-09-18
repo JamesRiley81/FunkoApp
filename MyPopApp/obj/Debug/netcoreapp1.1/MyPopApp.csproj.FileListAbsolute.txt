@@ -7,3 +7,12 @@ C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.cspro
 C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.AssemblyInfo.cs
 C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.dll
 C:\Users\Vestia\Desktop\MyPopApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.pdb
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.deps.json
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.runtimeconfig.json
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.runtimeconfig.dev.json
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.dll
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\bin\Debug\netcoreapp1.1\MyPopApp.pdb
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.AssemblyInfo.cs
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.dll
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.pdb
+D:\Users\shed\Desktop\FunkoApp\MyPopApp\obj\Debug\netcoreapp1.1\MyPopApp.csprojResolveAssemblyReference.cache
